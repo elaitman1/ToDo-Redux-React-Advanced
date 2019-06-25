@@ -1,6 +1,7 @@
 import React from 'react'
 import TodoTextInput from './TodoTextInput'
 import PropTypes from 'prop-types'
+
 const Header = ({ addTodo }) => (
   <header className="header">
   <h1>todos</h1>
@@ -21,3 +22,5 @@ Header.propTypes = {
 }
 
 export default Header
+
+//we are taking addTodo as an argument. the adTodo is the function we pass in from 
