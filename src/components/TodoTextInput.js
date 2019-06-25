@@ -33,3 +33,21 @@ export default class TodoTextInput extends Component {
     )
   }
 }
+//static proptype is the same a pure proptype
+// class Title extends React.Component {
+//   static propTypes = { title: PropTypes.string.isRequired };
+//
+//   render() {
+//     return (
+//       <h1>{title}</h1>
+//     );
+//   }
+// }
+//
+// // or written as a pure function
+//
+// const Title = ({ title }) => (
+//   <h1>{title}</h1>
+// );
+//
+// Title.propTypes = { title: PropTypes.string.isRequired }

@@ -4,4 +4,4 @@ import { addTodo } from '../actions'
 
 export default connect(null, { addTodo })(Header)
 
-//here we are importing header from components and connecting addtodo function
+//so from app.js to here we are importing components/header and connecting addtodo function
